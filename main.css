@@ -1,0 +1,38 @@
+@import url(index.css);
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
