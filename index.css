@@ -4,6 +4,8 @@
     background-color: hsl(0, 0%, 100%);
     border-radius: 1em;
     padding: 1em;
+    border: 0.1em solid black;
+    box-shadow: 0.1em 0.1em 0.2em 0.2em;
 }
 
 .inner_con {
